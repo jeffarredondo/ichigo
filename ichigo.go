@@ -117,6 +117,17 @@ func IchiMe(close []float64) ([][]float64, error) {
 	//ChikouSpan
 	chikou := ChikouSpan(close)
 
+	//ToDo:
+	//Span Thicky Thiccness
+
+	//Slope Span A
+
+	//Bull v Bear
+
+	//Conversion Position (-1, 0, 1)
+
+	//Rolling count of conversion positions
+
 	var tempSlice []float64
 
 	for i := 0; i < n; i++ {
